@@ -1,0 +1,95 @@
+* {
+    margin: 0;                      /* DEFINIÇÃO DA MARGEM */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;      /* Display: determina como os elementos aparecem na tela */
+    align-items: center;
+    height: 100vh;      /* vh - Altura */
+    justify-content: center;
+    width: 100vw;  /* vw - Largura */
+        background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior {
+    background-color: rgb(0, 0, 0) ; /* troca a cor de fundo */
+    width: 95%; /* largura da caixa */
+    max-width: 420px; /* largua máxima que pode ter */
+    opacity: 0.8; /* transparencia do item */
+    padding: 20px;
+    border-radius: 24px;
+}
+
+input{
+    border: none; /* borda do elemento */ /*Placeholder = nome dentro da caixa(input) */
+    outline: none; /* borda azul dentro da caixa(input) */
+    padding: 7px; /* espaçamento de dentro para fora */
+    border-radius: 24px; /* arredondamento das bordas */
+    font-size: 15px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+    }
+
+input:hover {
+    background-color: #7c7c7c6b;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px; 
+    background-color: #7c7c7c2b;
+    float: right; /* float: flutuar elementos dentro da caixa */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-maior{
+    color: rgb(255, 255, 255);
+}
+
+.caixa-media{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.lupa{
+    height: 20px;
+    
+}
+    
+
+.temp {
+    color: whitesmoke;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.descricao{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: yellow;
+    font-size: 30px; /* tamanho do texto */
+    font-family: 'Open Sans', sans-serif;
+}
