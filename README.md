@@ -9,6 +9,9 @@
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JS-Logo" height="30px" width="40px"/>
  </div>
  
+<div display="block">
+  <img src="assets/previsao-do-tempo-notebook.png" alt="previsao-do-tempo-notebook" />
+ 
  <h3> Link do Projeto </h3>
  
  <a href="https://previsaodevclub.netlify.app/">Projeto DevClub - Previsão do Tempo</a>
